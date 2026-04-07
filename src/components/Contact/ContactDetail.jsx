@@ -184,7 +184,7 @@ export default function ContactDetail() {
                         </div>
                         {/* Action Buttons */}
                         <div className="flex justify-end space-x-4">
-                            <Link hrefto={'/dashboard/contacts'} className="px-5 py-3 bg-gray-700 text-white rounded-lg hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 focus:ring-offset-gray-800 transition-all duration-200 flex items-center shadow-md">
+                            <Link to={'/dashboard/contacts'} className="px-5 py-3 bg-gray-700 text-white rounded-lg hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 focus:ring-offset-gray-800 transition-all duration-200 flex items-center shadow-md">
                                 <i className="fas fa-arrow-left mr-2" /> Back
                             </Link>
                             <Link to={`/dashboard/contacts/${id}/edit`} className="px-5 py-3 bg-gradient text-white rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-800 transition-all duration-200 font-medium shadow-lg transform hover:-translate-y-0.5 flex items-center">
